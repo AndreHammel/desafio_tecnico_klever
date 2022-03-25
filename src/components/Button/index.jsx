@@ -32,9 +32,12 @@ export function Button({ nameButton, values }) {
       window.localStorage.setItem('tokens', JSON.stringify(tokens));
       return navigate('/');
     }
+
     if (!token || !balance) {
+      console.log('aqui')
       setOpen(true);
       setFielsRequired(true);
+      return ''
     }
     if (!founded) {
       tokens.push({ token, balance });
@@ -84,8 +87,7 @@ export function Button({ nameButton, values }) {
       >
         {nameButton}
       </C.Button>
-      {
-        <Snackbar
+      {<Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={handleClose}
@@ -130,7 +132,7 @@ export function Button({ nameButton, values }) {
               <Btn onClick={() => setDecisionRemoveToken(false)}>No</Btn>
               <Btn onClick={remove} autoFocus>Yes</Btn>
             </DialogActions>
-          </Dialog>
+        </Dialog>
       }
     </>
   );
