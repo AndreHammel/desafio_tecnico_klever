@@ -26,6 +26,7 @@ export function FormComponent({ activedButtonRemove }) {
         onChange={(event) => setToken(event.target.value)}
         value={token}
         required
+        data-testid="token"
       />
       <label htmlFor="balance">Balance</label>
       <input
