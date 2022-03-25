@@ -31,6 +31,7 @@ export function Home() {
       <table>
         <thead>
           <tr>
+            <th> </th>
             <th>Tokens</th>
             <th>Balance</th>
           </tr>
