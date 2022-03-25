@@ -1,5 +1,4 @@
-# ![Klever Front-end Jr Test](https://user-images.githubusercontent.com/54488551/160129111-40366f09-582c-4a4c-bcad-d35010f2aed0.jpg)
-
+# ![Klever Front-end Jr Test](https://user-images.githubusercontent.com/54488551/160130742-c52e0897-3809-44a0-bd3f-e786613082c0.jpg)
 
 Table of Contents
 =================
