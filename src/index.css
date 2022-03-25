@@ -1,0 +1,26 @@
+:root {
+  --dark-blue: #13152A;
+  --white: #EFF1F3;
+  --purple: #AA33B5;
+  --green-yellowish: #E9F75D;
+  --gray: #646464;
+  --red: #920000;
+
+  --main-width: 600px;
+  
+  --fs-title: 1.1rem;
+  --fs-button: 1.05rem;
+  --fs-table: 2.5rem;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
