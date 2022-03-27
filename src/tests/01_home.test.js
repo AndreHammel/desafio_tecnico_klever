@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { store } from '../redux/store'
 
 describe('1 - App.js testing...', () => {
-  test('1.1 - Verify header image on screen', () => {
+  test('1.1 - It should header image on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -18,7 +18,7 @@ describe('1 - App.js testing...', () => {
     expect(headerImage).toBeDefined()
   })
 
-  test('1.2 - Verify button "Add Token" on scree', () => {
+  test('1.2 - It should button "Add Token" on scree', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -30,7 +30,7 @@ describe('1 - App.js testing...', () => {
     expect(btnAddToken).toBeDefined()
   })
 
-  test('1.3 - Verify text "Wish Wallet" on screen', () => {
+  test('1.3 - It should text "Wish Wallet" on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -42,7 +42,7 @@ describe('1 - App.js testing...', () => {
     expect(textWishWallet).toBeDefined()
   })
 
-  test('1.4 - Verify "token" text on screen', () => {
+  test('1.4 - It should "token" text on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -54,7 +54,7 @@ describe('1 - App.js testing...', () => {
     expect(textTokens).toBeDefined()
   })
 
-  test('1.5 - Verify "balance" text on screen', () => {
+  test('1.5 - It should "balance" text on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -66,7 +66,7 @@ describe('1 - App.js testing...', () => {
     expect(textBalance).toBeDefined()
   })
 
-  test('1.6 - Verify table element rendered ', () => {
+  test('1.6 - It should table element rendered ', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -78,7 +78,7 @@ describe('1 - App.js testing...', () => {
     expect(table).toBeDefined()
   })
 
-  test('1.7 - Verify logo image rendered on screen', () => {
+  test('1.7 - It should logo image rendered on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -91,7 +91,7 @@ describe('1 - App.js testing...', () => {
     expect(table).toBeDefined()
   })
 
-  test('1.8 - Verify table row rendered', () => {
+  test('1.8 - It should table row rendered', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>

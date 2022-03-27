@@ -8,7 +8,7 @@ import { AddToken } from '../pages/AddToken';
 
 describe('2 - AddToken.js testing...', () => {
 
-  test('2.1 - Verify button "Home" on screen', () => {
+  test('2.1 - It should button "Home" on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -20,7 +20,7 @@ describe('2 - AddToken.js testing...', () => {
     expect(btnHome).toBeDefined()
   })
 
-  test('2.2 - Verify button "Save" on screen', () => {
+  test('2.2 - It should button "Save" on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -32,7 +32,7 @@ describe('2 - AddToken.js testing...', () => {
     expect(btnSave).toBeDefined()
   })
 
-  test('2.3 - Verify token input', () => {
+  test('2.3 - It should token input', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -44,7 +44,7 @@ describe('2 - AddToken.js testing...', () => {
     expect(tokenInput).toBeDefined()
   })
 
-  test('2.4 - Verify number of text "token" on screen', () => {
+  test('2.4 - It should number of text "token" on screen', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
@@ -56,7 +56,7 @@ describe('2 - AddToken.js testing...', () => {
     expect(tokensText).toHaveLength(2)
   })
 
-  test('2.5 - Verify text on screeen ""balance', () => {
+  test('2.5 - It should text on screeen ""balance', () => {
     render(
       <Provider store={ store }>
         <BrowserRouter>
